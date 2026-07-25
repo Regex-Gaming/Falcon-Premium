@@ -1,15 +1,15 @@
 // Falcron | AeroX Development
 // Author: itsfizys
 export const config = {
-        token: process.env.DISCORD_TOKEN || '',
-        clientId: process.env.DISCORD_CLIENT_ID || '',
+        token: process.env.DISCORD_TOKEN || 'MTUzMDY0NDk5MjQ3MTYwMTE3Mg.GhUpDn.XX2MaUWVvaZJNcJ3ngQe4lEANXKU7DJ3Jb2kdg',
+        clientId: process.env.DISCORD_CLIENT_ID || '1530644992471601172',
         prefix: '-',
         ownerIds: process.env.OWNER_IDS ? process.env.OWNER_IDS.split(',') : [],
         ownerOnly: false,
 
         links: {
                 supportServer: 'https://discord.gg/Ez4gCJQDxB',
-                invite: '',
+                invite: 'https://discord.com/oauth2/authorize?client_id=1530644992471601172',
         },
 
         cache: {
@@ -19,7 +19,7 @@ export const config = {
         },
 
         database: {
-                uri: process.env.MONGODB_URI || '',
+                uri: process.env.MONGODB_URI || 'mongodb+srv://ranveeer1769_db_user:FsWKy06ruLO9pOsU@regex.xjseavr.mongodb.net/',
         },
 
         presence: {
