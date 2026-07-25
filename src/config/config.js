@@ -19,7 +19,7 @@ export const config = {
         },
 
         database: {
-                uri: process.env.MONGODB_URI || 'mongodb+srv://ranveeer1769_db_user:FsWKy06ruLO9pOsU@regex.xjseavr.mongodb.net/',
+                uri: process.env.MONGODB_URI || 'al-Oj1Bl9xfsNnfjq4Rtx8EPBxHlVqQyYclDp95RcxyR4S',
         },
 
         presence: {
